@@ -100,6 +100,7 @@
   * give object behavior with **methods**
   * create objects that represent real-world things
   * can overwrite **attr_accessor** methods by actually defining the **setter** and/or **getter** method - useful if you can't *remove* the **attr_accessor**
+  * ex: if you manually create a setter method or writer you can set a **attr_reader** only 
 
 Ex:
 ```Ruby
