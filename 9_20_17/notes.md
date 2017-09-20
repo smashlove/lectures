@@ -1,6 +1,6 @@
 ### Object Attributes
 
-  * can **initialize** with data and can also create **setter** and **getter** methods so we can read and write the data after object instance has been created
+  * can **initialize** with data and can also create **setter** and **getter** methods so we can read and write the data after object instance has been created (variables can be made available to all methods in the instance by adding the **@** at the beginning of the variable name creating an **instance variable**)
   Ex:
   ```Ruby
   class Person
@@ -47,7 +47,7 @@
 
   * **metaprogramming** - the writing of programs that operate on other programs, implementation of macros
 
-  * in this example the code creates a **setter** and **getter** method for us:
+  * in this example the code creates a **setter** and a **getter** method for us:
     ```Ruby
     class Person
 
@@ -91,5 +91,4 @@
 
       end
       ```
-
-      
+### Lecture Notes
