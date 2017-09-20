@@ -91,4 +91,37 @@
 
       end
       ```
-### Lecture Notes
+
+# Lecture Notes
+
+## Object Oriented Programming
+* creating our own objects
+  * create instance variables (properties) on the instance of an object - each object has it's own *state*, it's own instance of the variables
+  * give object behavior with **methods**
+  * create objects that represent real-world things
+  * can overwrite **attr_accessor** methods by actually defining the **setter** and/or **getter** method - useful if you can't *remove* the **attr_accessor**
+
+Ex:
+```Ruby
+  class BankAccount
+    def set_balance(amount) # balance=(amount)  => (better way to write)
+      @balance = amount
+    end
+
+    def balance # balance  => (better way to write)
+      @balance
+    end
+  end
+
+  my_account = BankAccount.new
+  my_second_account = BankAccount.new # different object
+  my_account.set_balance(100)
+  my_second_account(99)
+  my_account.balance # 100
+  my_second_account.balance # 99
+```
+
+
+## Review
+
+* Lifecycle methods
