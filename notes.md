@@ -4,7 +4,8 @@
 * can use **raise** to create an error to debug or **.inspect** (can only **raise** a string, **.inspect** returns a string) ex: ```raise self.inspect```
 
 * **composition** vs **inheritance**
-  * **module** (shared behaviors) vs **class** (shared 'template for life') - **include** module for instance, **extend** module for class
+  * **module** (shared behaviors) vs **class** (shared 'template for life') - **include** module for instance, **extend** module for class, **prepend** module to put methods in module get triggered first (the saffron of module addition)
+
     * nest modules with a ```module ClassMethods``` and a module ```module InstanceMethods```
     ```Ruby
     module
