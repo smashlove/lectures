@@ -68,4 +68,4 @@
 
 * **ERD** diagram - Entity Relationship Diagram
 
-* Has Many (owns), Belongs To (owned) 
+* Has Many (owns), Belongs To (owned)
