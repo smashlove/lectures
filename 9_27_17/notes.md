@@ -1,0 +1,3 @@
+# Tim Lecture
+
+## ActiveRecord
