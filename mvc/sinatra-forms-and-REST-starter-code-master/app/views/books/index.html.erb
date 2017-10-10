@@ -1,0 +1,10 @@
+<h1>Books Index</h1>
+
+<ul>
+  <% @books.each do |book| %>
+  <li>
+    <h4><%= book.title %></h4>
+    <p><%= book.snippet %></p>
+  </li>
+  <% end %>
+</ul>
